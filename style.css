@@ -1,0 +1,16 @@
+*{
+    font-family: "Anta", sans-serif;
+    --pico-font-family: "Anta", sans-serif;
+
+}
+#navbar{
+    background-color:#21E299;
+    border-radius: 10px;
+    margin: 0.5%;
+    padding: 1%;
+}
+#section1{
+    display:flex;
+   
+}
+
