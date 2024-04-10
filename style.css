@@ -3,17 +3,26 @@
     --pico-font-family: "Anta", sans-serif
 }
 i{
-    color: #21E299;
+    color: #04140C;
     text-align: center;
+    font-size: 35px;
+}
+body {
+    width: 99%!important;
 }
 #navbar{
     width: 99%;
     margin:0.5%
 
 }
+progress{
+    --pico-progress-color: #21E299; 
+    margin: 0.5%;
+}
 div{
     text-align: center;
 }
+
 #section1{
     display:flex;
     justify-content: center;
@@ -23,6 +32,11 @@ div{
     width: 99%; 
     margin:0.5%
 }
+#section2{
+    background-color: #21E299;
+    padding: 1%;
+    border-radius: 10px;
+}
 .div1{
     text-align: center;
     width:100% ;
@@ -31,11 +45,8 @@ div{
     display: flex;
     justify-content: space-around;
     border-radius: 10px;
-}
-i{
-    
-    font-size: 35px;
-    text-align: center;
+    background-color: #21E299;
+    padding: 1%;
 }
 .conteneurpresentation{
     display: flex;
@@ -43,8 +54,9 @@ i{
     width: 99%;
     margin: 0.5%;
 }
-.conteneur2{
+.info{
     display: flex;
+    justify-content:space-around ;
 }
 
 
